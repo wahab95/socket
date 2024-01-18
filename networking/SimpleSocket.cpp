@@ -10,5 +10,5 @@ hde::SimpleSocket::SimpleSocket(int domain, int service, int protocol, int port,
     address.sin_port = htons(port);
     address.sin_addr.s_addr=htons(interface);
     // stablish connection:
-    connection = socket(domain, service, protocol);
+    sock = socket(domain, service, protocol);
 }

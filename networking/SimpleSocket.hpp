@@ -6,7 +6,7 @@
 namespace hde {
     class SimpleSocket{
         private:
-            int connection;
+            int sock;
             struct sockaddr_in address;
         public:
             SimpleSocket(int domain, int service, 
