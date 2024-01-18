@@ -4,5 +4,5 @@
 
 
 hde::SimpleSocket::SimpleSocket(int domain, int service, int protocol){
-    int connection = socket(domain, service, protocol);
+    connection = socket(domain, service, protocol);
 }
